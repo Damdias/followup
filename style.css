@@ -1,0 +1,25 @@
+.menu li{
+    display: inline-block;
+}
+.menu-item{
+    color: #333;
+    height: 40px;
+    line-height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    outline: 0;
+
+    max-width: 250px;
+    padding: 3px 6px 3px 6px;
+    margin: 0;
+}
+.menu-item:hover{
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #eaeaea;
+
+}
+
+

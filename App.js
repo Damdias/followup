@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import NaviContainer from "./src/components/NaviBar/NaviContainer";
+import NaviList from "./src/components/NaviBar/NaviList";
 
 class App extends React.Component {
 
@@ -9,7 +11,9 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                Hello
+                <NaviContainer>
+                    <NaviList/>
+                </NaviContainer>
             </div>
         );
     }
